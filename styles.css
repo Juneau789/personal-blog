@@ -12,13 +12,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 2vw;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
-    height: 70px;
+    height: 4vw;
 }
 
 .top-bar ul {
@@ -31,10 +31,10 @@
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1vw 1.5vw;
     text-decoration: none;
     font-style: italic;
-    font-size: 18px;
+    font-size: 1.2vw;
 }
 
 .top-bar a:hover {
@@ -62,19 +62,32 @@ body {
     font-family: 'Libre Baskerville', serif;
 }
 
-.title-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30%;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 25px;
-    background-color: #F5F1E7;
+
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     text-align: center;
+    transform:  translateY(-6%);
+}
+
+.title-box {
+   width: 60%;
+   background-color: #F5F1E7;
+   padding: 2vw;
+   font-size: 2vw;
+   text-align: center;
+   border: 2px solid black;
+   border-radius: 30px;
 }
 
 .title-box h1 {
+    font-size: 6vw;
     font-weight: 400;
+}
+
+.title-box p {
+    font-size: 2vw;
 }
